@@ -54,7 +54,7 @@ const Login = () => {
           <div>
             <form className="flex flex-col relative w-full space-y-6" onSubmit={handleSubmit}>
               <input type="email" placeholder="Enter your Email" className="input input-bordered w-full bg-secondary text-white placeholder:text-gray-300" name="email" value={loginForm.email} onChange={handleChange} required />
-              <input type="text" placeholder="Enter your password" className="input input-bordered w-full bg-secondary text-white placeholder:text-gray-300" name="password" value={loginForm.password} onChange={handleChange} required />
+              <input type="password" placeholder="Enter your password" className="input input-bordered w-full bg-secondary text-white placeholder:text-gray-300" name="password" value={loginForm.password} onChange={handleChange} required />
               <button className="btn btn-primary" type="submit"> Log In </button>
             </form>
             <p className="pt-2 text-center text-base text-neutral"> Don't have an account? <Link to="/register" className="underline text-blue-500"> Register Here</Link></p>

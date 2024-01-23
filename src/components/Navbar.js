@@ -43,9 +43,6 @@ const Navbar = () => {
         <div>
           <ul className="flex items-center space-x-5">
             <li className="py-3 cursor-pointer">
-              <Link to="/" className="text-white text-base font-medium hover:text-gray-400">Home</Link>
-            </li>
-            <li className="py-3 cursor-pointer">
               <button onClick={handleLogOut} className="text-white text-base font-medium hover:text-gray-400">
                 Log out
               </button>
